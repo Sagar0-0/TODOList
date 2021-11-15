@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TODOList</string>
+    <string name="it_s_a_bit_lonely_here">It\'s a bit lonely here...</string>
+    <string name="get_started_by_adding_a_contact">Get started by adding a Contact</string>
+    <string name="add">Add</string>
+    <string name="your_task_box_is_empty">Your Task Box is Empty</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="title">Title...</string>
+    <string name="task">Task :</string>
+    <string name="write_something_in_here">Write something in here...</string>
+</resources>
