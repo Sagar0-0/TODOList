@@ -14,7 +14,7 @@ public class Contract {
 
     }
 
-    public static final class TODOEntry implements BaseColumns{
+    public static final class TODOEntry implements BaseColumns {
 
         public static final Uri CONTENT_URI = Uri.withAppendedPath(BASE_CONTENT_URI, PATH_TODO);
 
@@ -25,15 +25,13 @@ public class Contract {
                 ContentResolver.CURSOR_ITEM_BASE_TYPE + "/" + CONTENT_AUTHORITY + "/" + PATH_TODO;
 
 
-
         public final static String TABLE_NAME = "todos";
 
         public final static String _ID = BaseColumns._ID;
 
-        public final static String COLUMN_TODO_TITLE ="title";
+        public final static String COLUMN_TODO_TITLE = "title";
 
-        public final static String COLUMN_TODO_TASK="task";
-
+        public final static String COLUMN_TODO_TASK = "task";
 
 
     }
